@@ -1,225 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Web Studio</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <title>Portfolio</title>
   </head>
   <body>
-    <header class="header-elements">
-      <nav class="nav-wrapper container">
-        <ul class="nav-links">
-          <li>
-            <a class="nav-logo" href="./index.html">
-              <span class="web-color">Web</span>Studio
-            </a>
+    <div class="wrapper">
+      <header class="header">
+        <a class="logo" href="index.html" title="Strona główna"
+          ><span class="brand-color-blue">Web</span>Studio</a
+        >
+        <nav>
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a class="menu-link" href="index.html">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item"><a class="menu-link" href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <ul class="contact-list">
+          <li class="contact-item">
+            <a href="mailto:info@devstudio.com" class="contact-link"
+              >info@devstudio.com</a
+            >
           </li>
-          <li>
-            <a class="nav-menu" href="./index.html">Studio</a>
-          </li>
-          <li>
-            <a class="nav-menu" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="nav-menu" href="">Contacts</a>
-          </li>
-        </ul>
-        <div class="nav-separator"></div>
-        <ul class="nav-box-contacts">
-          <li>
-            <a class="nav-contacts" href="mailto:info@devstudio.com">
-              info@devstudio.com
-            </a>
-          </li>
-          <li>
-            <a class="nav-contacts" href="tel:+110001111111">
-              +11 (000) 111-11-11
-            </a>
+          <li class="contact-item">
+            <a href="tel:+110001111111" class="contact-link">+11 (000) 111-11-11</a>
           </li>
         </ul>
-      </nav>
-    </header>
-    <main>
-      <nav>
-        <ul class="portfolio-button container">
-          <li>
-            <button class="portfolio-button-nav" type="button">
-              All
-            </button>
-          </li>
-          <li>
-            <button class="portfolio-button-nav" type="button">Web Site</button>
-          </li>
-          <li>
-            <button class="portfolio-button-nav" type="button">
-              App
-            </button>
-          </li>
-          <li>
-            <button class="portfolio-button-nav" type="button">Design</button>
-          </li>
-          <li>
-            <button class="portfolio-button-nav" type="button">
-              Marketing
-            </button>
-          </li>
-        </ul>
-      </nav>
-      <div class="about-all-projects container">
-        <ul class="about-all-projects-list">
-          <li>
-            <figure>
-              <img
-                src="./images/img(4).jpg"
-                alt="Banking App Interface Concept"
-                width="360"
-                height="300"
-              />
-              <figcaption>
-                <p class="about-projects-title">Banking App Interface Concept</p>
-                <p class="about-projects-type">App</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/img(5).jpg"
-                alt="Cashless Payment"
-                width="360"
-                height="300"
-              />
-              <figcaption>
-                <p class="about-projects-title">
-                  Cashless Payment
-                </p>
-                <p class="about-projects-type">Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/img(6).jpg"
-                alt="Meditation App"
-                width="360"
-                height="300"
-              />
-              <figcaption>
-                <p class="about-projects-title">Meditation App</p>
-                <p class="about-projects-type">App</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/img(7).jpg"
-                alt="Taxi Service"
-                width="360"
-                height="300"
-              />
-              <figcaption>
-                <p class="about-projects-title">Taxi Service</p>
-                <p class="about-projects-type">Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/img(8).jpg"
-                alt="Screen Illustrations"
-                width="360"
-                height="300"
-              />
-              <figcaption>
-                <p class="about-projects-title">Screen Illustrations</p>
-                <p class="about-projects-type">Design</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/img(9).jpg"
-                alt="Online Courses"
-                width="360"
-                height="300"
-              />
-              <figcaption>
-                <p class="about-projects-title">Online Courses</p>
-                <p class="about-projects-type">Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/img(10).jpg"
-                alt="Instagram Stories Concept"
-                width="360"
-                height="300"
-              />
-              <figcaption>
-                <p class="about-projects-title">Instagram Stories Concept</p>
-                <p class="about-projects-type">Design</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/img(11).jpg"
-                alt="Organic Food"
-                width="360"
-                height="300"
-              />
-              <figcaption>
-                <p class="about-projects-title">Organic Food</p>
-                <p class="about-projects-type">Web Site</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/img(12).jpg"
-                alt="Fresh Coffee"
-                width="360"
-                height="300"
-              />
-              <figcaption>
-                <p class="about-projects-title">Fresh Coffee</p>
-                <p class="about-projects-type">Web Site</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-      </div>
-    </main>
-    <footer class="footer">
-      <div class="container">
-      <span class="footer-color-web">
-        Web
-        </span>
-        <span class="footer-color-studio">Studio</span>
+      </header>
+      <main class="main">
+        <!-- SUBMENU -->
+        <section class="submenu-list">
+          <ul>
+            <li class="submenu-item">
+              <button type="button" class="btn">All</button>
+            </li>
+            <li class="submenu-item">
+              <button type="button" class="btn">Web Site</button>
+            </li>
+            <li class="submenu-item">
+              <button type="button" class="btn">App</button>
+            </li>
+            <li class="submenu-item">
+              <button type="button" class="btn">Design</button>
+            </li>
+            <li class="submenu-item">
+              <button type="button" class="btn">Marketing</button>
+            </li>
+          </ul>
+        </section>
+        <!-- SUBMENU -->
+        <!-- PROJECTS -->
+        <section class="projects">
+          <ul class="projects-list list">
+            <li class="projects-item">
+              <figure class="projects-photo">
+                <img
+                  src="./images/img(4).jpg"
+                  alt="Banking App Interface Concept"
+                  width="370"
+                  height="274"
+                />
+                <figcaption class="projects-description">
+                  <h3>Banking App Interface Concept</h3>
+                  <p class="projects-description-text">App</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="projects-item">
+              <figure class="projects-photo">
+                <img
+                  src="./images/img(5).jpg"
+                  alt="Cashless Payment"
+                  width="370"
+                  height="274"
+                />
+                <figcaption class="projects-description">
+                  <h3>Cashless Payment</h3>
+                  <p class="projects-description-text">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="projects-item">
+              <figure class="projects-photo">
+                <img
+                  src="./images/img(6).jpg"
+                  alt="Meditation App"
+                  width="370"
+                  height="274"
+                />
+                <figcaption class="projects-description">
+                  <h3>Meditation App</h3>
+                  <p class="projects-description-text">App</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="projects-item">
+              <figure class="projects-photo">
+                <img
+                  src="./images/img(7).jpg"
+                  alt="Taxi Service"
+                  width="370"
+                  height="274"
+                />
+                <figcaption class="projects-description">
+                  <h3>Taxi Service</h3>
+                  <p class="projects-description-text">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="projects-item">
+              <figure class="projects-photo">
+                <img
+                  src="./images/img(8).jpg"
+                  alt="Screen Illustrations"
+                  width="370"
+                  height="274"
+                />
+                <figcaption class="projects-description">
+                  <h3>Screen Illustrations</h3>
+                  <p class="projects-description-text">Design</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="projects-item">
+              <figure class="projects-photo">
+                <img
+                  src="./images/img(9).jpg"
+                  alt="Online Courses"
+                  width="370"
+                  height="274"
+                />
+                <figcaption class="projects-description">
+                  <h3>Online Courses</h3>
+                  <p class="projects-description-text">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="projects-item">
+              <figure class="projects-photo">
+                <img
+                  src="./images/img(10).jpg"
+                  alt="Instagram Stories Concept"
+                  width="370"
+                  height="274"
+                />
+                <figcaption class="projects-description">
+                  <h3>Instagram Stories Concept</h3>
+                  <p class="projects-description-text">Design</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="projects-item">
+              <figure class="projects-photo">
+                <img
+                  src="./images/img(11).jpg"
+                  alt="Organic Food"
+                  width="370"
+                  height="274"
+                />
+                <figcaption class="projects-description">
+                  <h3>Organic Food</h3>
+                  <p class="projects-description-text">Web Site</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="projects-item">
+              <figure class="projects-photo">
+                <img
+                  src="./images/img(12).jpg"
+                  alt="Fresh Coffee"
+                  width="370"
+                  height="274"
+                />
+                <figcaption class="projects-description">
+                  <h3>Fresh Coffee</h3>
+                  <p class="projects-description-text">Web Site</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+        <!-- PROJECTS -->
+      </main>
+      <footer class="footer">
+        <a class="logo" href="index.html" title="Strona główna"
+          ><span class="brand-color-blue">Web</span>Studio</a
+        >
         <p class="main-description-text">
           Increase the flow of customers and sales for your business with digital
           marketing & growth solutions.
         </p>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
