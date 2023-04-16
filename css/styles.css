@@ -20,8 +20,7 @@
     margin: 0 auto;
     width: 1200px;
   }
-  .header-elements,
-  .menu-header {
+  .header-elements {
     background-color: var(--white-main-banner);
     line-height: 1.17;
     box-sizing: border-box;
@@ -31,8 +30,7 @@
   .nav-links a {
     color: var(--black);
   }
-  .nav-links,
-  .main-nav-items-list {
+  .nav-links {
     font-size: 14px;
     text-decoration: none;
     box-sizing: border-box;
@@ -43,37 +41,29 @@
     justify-content: space-around;
     align-items: center;
   }
-  .nav-logo,
-  .main-logo-link {
+  .nav-logo {
     font-size: 26px;
     font-family: Raleway;
     text-decoration: none;
   }
-  .nav-menu,
-  .nav-link-link {
+  .nav-menu {
     text-decoration: none;
     font-size: 14px;
   }
   .nav-menu,
-  .nav-links,
-  .main-nav-items-list {
+  .nav-links {
     font-weight: 500;
   }
   .nav-links a:hover,
-  .main-nav-items-list a:hover,
   .nav-links a:focus,
-  .main-nav-items-list a:focus,
   .nav-contacts:hover,
-  .contact-link-link:hover,
-  .nav-contacts:focus,
-  .contact-link-link:focus {
+  .nav-contacts:focus {
     color: var(--light-blue);
   }
   .web-color {
     color: var(--light-blue);
   }
-  .nav-contacts,
-  .contact-link-link {
+  .nav-contacts {
     color: var(--black);
     text-decoration: none;
     font-size: 14px;
@@ -82,16 +72,14 @@
     justify-content: flex-start;
     align-items: flex-start;
   }
-  .main-banner,
-  .hero {
+  .main-banner {
     color: var(--white-main-banner);
     background-color: var(--main-banner);
     padding: 200px 0;
     text-align: center;
     box-sizing: border-box;
   }
-  .main-banner > h1,
-  .hero > h1 {
+  .main-banner > h1 {
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
@@ -101,8 +89,7 @@
   .main-banner-description {
     line-height: 1.36;
   }
-  .button-main,
-  .btn-hero-module-btn-hero {
+  .button-main {
     color: var(--white-main-banner);
     background-color: var(--light-blue);
     font-size: 16px;
@@ -121,28 +108,23 @@
     padding: 0;
     gap: var(--flex-gap);
   }
-  .main-description,
-  .skils-item {
+  .main-description {
     font-size: 14px;
     text-align: justify;
     box-sizing: border-box;
   }
-  .main-description-title,
-  .subtitle-skils {
+  .main-description-title {
     color: black;
     font-size: 14px;
     line-height: 1.17;
   }
-  .main-description-text,
-  .text-skils {
+  .main-description-text {
     line-height: 1.71;
   }
   .section-working {
     margin-bottom: 188px;
   }
-  .section-headline,
-  .gallery-title,
-  .title-teams {
+  .section-headline {
     color: var(--black);
     font-weight: 700;
     text-align: center;
@@ -171,25 +153,20 @@
   .about-us-img {
     margin-bottom: 30px;
   }
-  .about-name,
-  .subtitle-teams {
+  .about-name {
     color: var(--black);
     font-weight: 500;
     text-align: center;
   }
-  .about-position,
-  .teams-text {
+  .about-position {
     text-align: center;
     margin-bottom: 94px;
   }
   .about-name,
-  .subtitle-teams,
-  .about-position,
-  .teams-text {
+  about-position {
     line-height: 1.17;
   }
-  .footer,
-  .main-footer {
+  .footer {
     background-color: var(--main-banner);
     font-size: 14px;
     box-sizing: border-box;
