@@ -230,13 +230,13 @@
   }
   .footer-color-web {
     font-family: "Raleway", sans-serif;
-    color: #4d5ae5;
     font-size: 26px;
+    color: #4d5ae5;
   }
   .footer-color-studio {
     font-family: "Raleway", sans-serif;
     font-size: 26px;
-    color: var(--white);
+    color: #f4f4fd;
   }
   .footer-adress {
     color: var(--white-main-banner);
