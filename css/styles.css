@@ -1,5 +1,6 @@
 :root {
     --light-blue: #404bbf;
+    --blue: #4d5ae5;
     --grey: #434455;
     --black: #2e2f42;
     --white: #e5e5e5;
@@ -215,14 +216,18 @@
     line-height: 1.17;
   }
   .footer {
+    font-family: "Raleway";
     background-color: #2e2f42;
-    font-size: 14px;
+    font-size: 18px;
     box-sizing: border-box;
     line-height: 1.17;
     padding: 60px 0;
-    font-family: Raleway;
     text-decoration: none;
     width: 100%;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5
   }
   .footer-color-web {
     color: var(--light-blue);
