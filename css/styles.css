@@ -88,6 +88,9 @@
   .web-color {
     color: #2e2f42;
   }
+  .address {
+    font-style: normal;
+  }
   .nav-contacts {
     color: var(--black);
     text-decoration: none;
