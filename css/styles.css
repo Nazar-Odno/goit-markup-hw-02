@@ -80,9 +80,9 @@
     box-sizing: border-box;
   }
   .main-banner > h1 {
-    font-size: 44px;
+    font-size: 56px;
     font-weight: 900;
-    line-height: 1.36;
+    line-height: 1.07;
     text-align: center;
     text-transform: uppercase;
   }
