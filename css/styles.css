@@ -141,11 +141,6 @@ button {
   color: var(--primary-color-heading);
 }
 
-.page-header-container {
-  display: flex;
-  align-items: center;
-}
-
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -206,14 +201,10 @@ button {
 
 .hero {
   background-color: #2e2f42;
-  
-}
-
-.hero-container {
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
- 
+  
 }
 
 .main-title {
@@ -250,11 +241,12 @@ button {
   color: var(--background-color);
 }
 
-.benefits-section-list {
+.gall-works-section-list {
   display: flex;
+  align-items: center;
 }
 
-.benefits-section-item:not(:last-child) {
+.gall-works-section-item:not(:last-child) {
   margin-right: 24px;
 }
 
@@ -275,6 +267,7 @@ button {
 
 .section-works-list {
   display: flex;
+  align-items: center;
   padding-bottom: 120px;
 
 }
@@ -285,7 +278,7 @@ button {
 
 .section-employee-list {
   display: flex;
-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .section-employee-list-item:not(:nth-child(4n)) {
