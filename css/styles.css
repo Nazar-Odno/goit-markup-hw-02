@@ -223,6 +223,8 @@
   .about-position {
     text-align: center;
     margin-bottom: 94px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
   .about-name,
   .about-position {
@@ -249,12 +251,6 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-cloud);
-  }
-  .footer-adress {
-    color: var(--white-main-banner);
-    text-decoration: none;
-    padding-top: 20px;
-    padding-bottom: 9px;
   }
   .portfolio-button {
     font-size: 16px;
