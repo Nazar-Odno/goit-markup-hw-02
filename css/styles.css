@@ -223,8 +223,9 @@
   .about-position {
     text-align: center;
     margin-bottom: 94px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
   }
   .about-name,
   .about-position {
