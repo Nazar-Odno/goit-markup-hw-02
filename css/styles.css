@@ -12,6 +12,8 @@ body {
   font-family: var(--primary-font);
   color: var(--secondary-color-par);
   background-color: var(--background-color);
+  margin: 0px;
+  padding: 0px;
 }
 
 .visually-hidden {
