@@ -103,7 +103,9 @@
     cursor: pointer;
     font-weight: 500;
     letter-spacing: 0.04em;
-    background-color: #404BBF;
+  }
+  .button-main {
+    background-color: #404BBF
   }
   .main-description-box {
     list-style: none;
