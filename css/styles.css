@@ -1,15 +1,12 @@
 :root {
-    --light-blue: #2196f3;
-    --grey: #757575;
-    --black: #212121;
+    --light-blue: #404bbf;
+    --grey: #434455;
+    --black: #2e2f42;
     --white: #e5e5e5;
     --main-banner: #2f303a;
     --white-main-banner: #ffffff;
     --portfolio-button: #f5f4fa;
     --flex-gap: 1.25rem;
-    --primary-text-color: #434455;
-    --secondary-text-color: #2e2f42; 
-
   }
   
   body {
