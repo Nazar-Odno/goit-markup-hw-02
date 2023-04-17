@@ -62,6 +62,12 @@
   .nav-menu,
   .nav-links {
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    
+
   }
   .nav-links a:hover,
   .nav-links a:focus,
