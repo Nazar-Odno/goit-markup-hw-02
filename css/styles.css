@@ -241,9 +241,18 @@ button {
   color: var(--background-color);
 }
 
+.section-benefits {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .gall-works-section-list {
   display: flex;
-  align-items: center;
 }
 
 .gall-works-section-item:not(:last-child) {
