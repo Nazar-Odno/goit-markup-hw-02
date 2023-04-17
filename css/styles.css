@@ -242,6 +242,7 @@ button {
 
 .section-gall-works {
   display: flex;
+  align-items: center;
 }
 
 .gall-works-section-item:not(:last-child) {
