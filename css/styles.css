@@ -240,6 +240,10 @@ button {
   color: var(--background-color);
 }
 
+.section-gall-works {
+  display: flex;
+}
+
 .gall-works-section-item:not(:last-child) {
   margin-right: 24px;
 }
