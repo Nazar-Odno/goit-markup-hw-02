@@ -157,12 +157,15 @@
   }
   .main-description-title {
     color: black;
-    font-size: 14px;
-    line-height: 1.17;
+    font-size: 20px;
+    line-height: 1.2;
     font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
   }
   .main-description-text {
-    line-height: 1.71;
+    line-height: 1.5;
+    letter-spacing: 0.02em
   }
   .section-working {
     margin-bottom: 188px;
