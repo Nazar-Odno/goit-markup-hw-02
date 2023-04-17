@@ -87,7 +87,9 @@
     text-transform: uppercase;
   }
   .main-banner-description {
-    line-height: 1.36;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em
   }
   .button-main {
     color: var(--white-main-banner);
