@@ -107,6 +107,9 @@
   .button-main:hover {
     background-color: #404BBF
   }
+  .button-main:focus {
+    background-color: #404BBF
+  }
   .main-description-box {
     list-style: none;
     display: flex;
