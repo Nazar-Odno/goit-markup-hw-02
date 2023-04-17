@@ -171,12 +171,14 @@
     margin-bottom: 188px;
   }
   .section-headline {
-    color: var(--black);
+    color: #2e2f42;
     font-weight: 700;
     text-align: center;
-    line-height: 1.17;
+    line-height: 1.11;
     box-sizing: border-box;
     margin-bottom: 50px;
+    font-size: 36px;
+    text-transform: capitalize;
   }
   .section-working-kind {
     display: flex;
