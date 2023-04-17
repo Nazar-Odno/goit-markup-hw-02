@@ -7,7 +7,6 @@
     --white-main-banner: #ffffff;
     --portfolio-button: #f5f4fa;
     --flex-gap: 1.25rem;
-    --color: #2e2f42;
   }
   
   body {
@@ -59,6 +58,7 @@
   .nav-menu {
     text-decoration: none;
     font-size: 14px;
+    color: #2e2f42;
   }
   .nav-menu,
   .nav-links {
